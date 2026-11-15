@@ -1,0 +1,28 @@
+{
+    "name": "bankingcomponent-payengine-inline",
+    "version": "1.0.0",
+    "description": "BankingComponent PayEngine Standalone Checkout Widget",
+    "main": "dist/checkout.cjs.js",
+    "module": "dist/checkout.esm.js",
+    "unpkg": "dist/checkout.min.js",
+    "jsdelivr": "dist/checkout.min.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "checkout",
+        "payments",
+        "payengine",
+        "widget"
+    ],
+    "author": "BankingComponent",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^4.0.0"
+    }
+}
