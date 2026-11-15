@@ -2,17 +2,11 @@
 
 A modern, standalone, zero-dependency JavaScript payment checkout widget for **BankingComponent PayEngine**. Built with native Vanilla JavaScript and scoped self-injecting styles, it provides dynamic bank transfer checkout sessions, real-time status verification, automatic Sandbox/Production routing, and customizable merchant branding.
 
-<p align="center">
-  <img src="./image1.png" alt="PayEngine Checkout Widget Preview" width="420" />
-</p>
-
----
-
 ## UI Showcase
 
 | Dynamic Bank Transfer | Payment Verification & Success |
 | :---: | :---: |
-| <img src="https://placehold.co/320x420/f6f3fe/3d348b?text=Dynamic+Bank+Transfer+View" alt="Bank Transfer View" width="320" /> | <img src="https://placehold.co/320x420/edfaf2/15803d?text=Payment+Approved+View" alt="Payment Approved View" width="320" /> |
+| <img src="./image1.png" alt="Bank Transfer View" width="320" /> | <img src="./image2.png" alt="Payment Approved View" width="320" /> |
 | *One-time virtual account with copy triggers & 20-minute timer* | *Instant settlement confirmation via `payment.verifyStatus`* |
 
 ---
