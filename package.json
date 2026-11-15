@@ -1,6 +1,6 @@
 {
     "name": "bankingcomponent-payengine-inline",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "BankingComponent PayEngine Standalone Checkout Widget",
     "main": "dist/checkout.cjs.js",
     "module": "dist/checkout.esm.js",

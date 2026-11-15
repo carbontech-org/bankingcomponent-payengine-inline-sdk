@@ -9,9 +9,8 @@
 const STYLE_ID = 'payengine-sdk-styles';
 
 // PayEngine API Base URLs
-// const SANDBOX_BASE_URL = 'https://sandbox.bankingcomponent.com/payengine/v1';
-const SANDBOX_BASE_URL = 'http://127.0.0.1:5099/payengine/v1';
-const PROD_BASE_URL = 'https://api.bankingcomponent.com/payengine';
+const PROD_BASE_URL = 'https://api.bankingcomponent.com/payengine/v1';
+const SANDBOX_BASE_URL = 'https://sandbox.bankingcomponent.com/payengine/v1'
 
 /**
  * Injects scoped CSS styles into the document head once.
